@@ -13,9 +13,9 @@ const Projects = () => {
           Step into my portfolio
         </h1>
         <p className=" text-lg text-gray-700 font-light mt-5  dark:text-gray-100">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          explicabo natus rerum! Perspiciatis molestiae maiores reprehenderit
-          nam dicta? Distinctio, doloribus.
+          Browse through my portfolio of projects to see examples of my work.
+          From personal projects to professional endeavors, find a diverse range
+          of creations.
         </p>
       </div>
 
