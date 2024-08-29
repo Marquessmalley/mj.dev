@@ -18,10 +18,18 @@ export const projectData = [
   },
   {
     id: 3,
+    title: "Paul & Tev Shine Time",
+    description:
+      "Developed a React/TypeScript scheduling and appointment booking application with integrated Firebase backend.",
+    imageUrl: "assets/images/logo.png",
+    link: "https://main--ptshinetime.netlify.app/",
+  },
+  {
+    id: 4,
     title: "Mistore",
     description:
       "An ecommerce website built with the MERN (MongoDB, Express, React, Node.js) stack, allowing users to browse products, add items to cart, and complete transactions securely.",
-    imageUrl: "assets/images/store.png",
+    imageUrl: "assets/images/logo.png",
     link: "https://github.com/Marquessmalley/mistore",
   },
 ];

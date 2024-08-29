@@ -1,6 +1,7 @@
 import knowHonesty from "assets/images/knowhonesty.png";
 import logrhythm from "assets/images/logrhythm.jpeg";
 import shop from "assets/icons/shop.svg";
+import shineLogo from "assets/images/logo.png";
 const Card = ({ id, name, img, description, link }) => {
   const renderImage = (id) => {
     switch (id) {
@@ -10,6 +11,8 @@ const Card = ({ id, name, img, description, link }) => {
       case 2:
         return knowHonesty;
       case 3:
+        return shineLogo;
+      case 4:
         return shop;
 
       default:
@@ -24,6 +27,8 @@ const Card = ({ id, name, img, description, link }) => {
       case 2:
         return "assessment.knowhonesty.com";
       case 3:
+        return "ptshinetime.com";
+      case 4:
         return "github.com";
       default:
         break;
