@@ -20,7 +20,7 @@ export const projectData = [
     id: 3,
     title: "Paul & Tev Shine Time",
     description:
-      "Developed a React/TypeScript scheduling and appointment booking application with integrated Firebase backend.",
+      "Book effortlessly through the Paul & Tev Shine Time app. Their detailers come to you, ensuring your car looks immaculate.",
     imageUrl: "assets/images/logo.png",
     link: "https://main--ptshinetime.netlify.app/",
   },
