@@ -1,4 +1,5 @@
 import React from "react";
+import code from "assets/images/code.jpg";
 
 const Home = () => {
   return (
@@ -29,10 +30,10 @@ const Home = () => {
         </div>
         <div className="relative mt-16 h-80 lg:mt-8">
           <img
-            className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            className="absolute w-[55rem] -right-16 lg:left-0  lg:-top-8 lg:w-[45rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+            src={code}
             alt="App screenshot"
-            width={1824}
+            width={1000}
             height={1080}
           />
         </div>
