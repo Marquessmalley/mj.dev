@@ -32,4 +32,19 @@ export const projectData = [
     imageUrl: "assets/images/logo.png",
     link: "https://github.com/Marquessmalley/mistore",
   },
+  {
+    id: 5,
+    title: "Kikcit",
+    description:
+      "Kikcit is a social application that personalizes, recommends, and rewards users for their daily interactions at local businesses and live venues.",
+    imageUrl: "assets/images/kikcitLogo.jpg",
+    link: "https://apps.apple.com/us/app/kikcit-app/id6736466746",
+  },
+  {
+    id: 6,
+    title: "49Coldbrook",
+    description:
+      "49 Coldbrook is a versatile venue offering the perfect setting for events of all kinds — from corporate gatherings to community celebrations",
+    link: "https://49coldbrook.com/",
+  },
 ];

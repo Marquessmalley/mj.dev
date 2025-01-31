@@ -12,7 +12,7 @@ const Stack = () => {
           My Tech Stack
         </h1>
         <p className="mt-6 text-lg text-center font-light leading-8 text-gray-800 dark:text-gray-300">
-          Technologies I've ben working with recently
+          Technologies I've been working with recently
         </p>
         {/* <div className="bg-white mx-auto mt-10 grid max-w-lg grid-cols-5 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 "> */}
         <div className=" mx-auto mt-10 grid grid-cols-5 md:grid-cols-5">

@@ -2,7 +2,10 @@ import knowHonesty from "assets/images/knowhonesty.png";
 import logrhythm from "assets/images/logrhythm.jpeg";
 import shop from "assets/icons/shop.svg";
 import shineLogo from "assets/images/logo.png";
-const Card = ({ id, name, img, description, link }) => {
+import kikcitLogo from "assets/images/kikcitLogo.jpg";
+import coldbrookLogo from "assets/images/coldbrookLogo.svg";
+
+const Card = ({ id, name,  description, link }) => {
   const renderImage = (id) => {
     switch (id) {
       case 1:
@@ -14,7 +17,10 @@ const Card = ({ id, name, img, description, link }) => {
         return shineLogo;
       case 4:
         return shop;
-
+      case 5:
+        return kikcitLogo;
+      case 6:
+        return coldbrookLogo;
       default:
         break;
     }
@@ -30,19 +36,24 @@ const Card = ({ id, name, img, description, link }) => {
         return "ptshinetime.com";
       case 4:
         return "github.com";
+      case 5:
+        return "kikcit.com";
+      case 6:
+        return "49Coldbrook.com";
       default:
         break;
     }
   };
+  
   return (
     <div
       key={id}
-      className="transition ease-in delay-150 hover:bg-zinc-50 dark:hover:bg-gray-800 rounded-lg p-10 shadow-md shadow-zinc-800/5 cursor-pointer"
+      className="transition ease-in delay-150 hover:bg-zinc-50 dark:hover:bg-gray-800 rounded-lg p-10 shadow-md dark:shadow-md shadow-zinc-800/5 cursor-pointer"
     >
       <div className="relative  flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:rin">
         <div className="h-12 w-12 rounded-full overflow-hidden">
           <img
-            className="h-full w-full object-cover"
+            className="h-full w-full object-contain"
             src={renderImage(id)}
             alt="project"
             style={{ background: "#fff" }}

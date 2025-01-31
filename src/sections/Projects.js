@@ -26,7 +26,6 @@ const Projects = () => {
             key={item.id}
             id={item.id}
             name={item.title}
-            img={item.imageUrl}
             description={item.description}
             link={item.link}
           />

@@ -16,6 +16,7 @@ const Blogs = () => {
       });
   }, []);
 
+
   return (
     <div
       id="blogs"
@@ -31,7 +32,9 @@ const Blogs = () => {
       </div>
 
       {/* PROJECT CARDS */}
-      <div className="m-10 mt-16 ml-10 grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+  
+       <div className="m-2 mt-8 grid grid-cols-1 gap-y-8 sm:grid-cols-3 sm:gap-x-10 justify-center">
+
         {posts &&
           posts.map((item) => (
             <BlogCard
