@@ -14,7 +14,7 @@ export const projectData = [
     description:
       "Discover real time data on company transparency(honesty and openess) ",
     imageUrl: "assets/images/knowhonesty.png",
-    link: "https://www.assessment.knowhonesty.com/signup",
+    link: "https://www.assessment.knowhonesty.com",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ export const projectData = [
     description:
       "Book effortlessly through the Paul & Tev Shine Time app. Their detailers come to you, ensuring your car looks immaculate.",
     imageUrl: "assets/images/logo.png",
-    link: "https://main--ptshinetime.netlify.app/",
+    link: "https://ptst-2.vercel.app/",
   },
   {
     id: 4,

@@ -1,10 +1,17 @@
 import React from "react";
+import { useContext } from "react";
 import js from "assets/icons/js.svg";
 import react from "assets/icons/react.svg";
 import tailwind from "assets/icons/tailwind.svg";
 import github from "assets/icons/git.svg";
+import nextDark from "assets/icons/next-dark.svg";
+import nextLight from "assets/images/next-light.png";
+import c from "assets/images/c-sharp.png";
+import { ThemeContext } from "theme/index";
 
 const Stack = () => {
+  const { isDarkMode } = useContext(ThemeContext);
+
   return (
     <div className="bg-white dark:bg-gray-900 py-24 sm:py-32 rounded-xl">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -48,8 +55,8 @@ const Stack = () => {
 
           <img
             className=" max-h-12 w-full object-contain "
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
-            alt="tailwind"
+            src={isDarkMode ? nextLight : nextDark}
+            alt="nextjs"
             width={158}
             height={48}
           />
@@ -65,7 +72,7 @@ const Stack = () => {
 
           <img
             className="max-h-12 w-full object-contain "
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
+            src={c}
             alt="java"
             width={158}
             height={48}

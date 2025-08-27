@@ -15,10 +15,11 @@ const Home = () => {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
             <a
-              href="#about"
+              href="/MarquesSmalley-Resume.pdf"
+              download={true}
               className="rounded-md  bg-gray-800 dark:bg-white px-3.5 py-2.5 text-sm font-semibold text-white dark:text-gray-900 shadow-sm dark:hover:bg-gray-100 hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
-              About Me
+              Download Resume
             </a>
             <a
               href="#projects"
