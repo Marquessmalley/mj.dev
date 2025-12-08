@@ -5,6 +5,7 @@ import Home from "sections/Home";
 import Stack from "sections/Stack";
 import Projects from "sections/Projects";
 import Blogs from "sections/Blogs";
+import Contact from "sections/Contact";
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -26,6 +27,7 @@ export default function App() {
           <Stack />
           <Projects />
           <Blogs />
+          <Contact />
         </div>
       </div>
     </ThemeContext.Provider>
