@@ -155,7 +155,7 @@ const Contact = () => {
             >
               By selecting this, you agree to our{" "}
               <a
-                href="#"
+                href="#about"
                 className="font-semibold whitespace-nowrap text-indigo-600"
               >
                 privacy policy
