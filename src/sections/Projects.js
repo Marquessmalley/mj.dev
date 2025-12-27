@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { animate, stagger, createTimeline } from "animejs";
+import { stagger, createTimeline } from "animejs";
 import Card from "components/card/Card";
 import { projectData } from "constants/projects";
 

@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { animate, stagger, createTimeline } from "animejs";
+import { stagger, createTimeline } from "animejs";
 import BlogCard from "components/blog-card/BlogCard";
 
 const Blogs = () => {

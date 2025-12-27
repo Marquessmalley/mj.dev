@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { animate, stagger, createTimeline } from "animejs";
+import { stagger, createTimeline } from "animejs";
 
 const Home = () => {
   const heroRef = useRef(null);
